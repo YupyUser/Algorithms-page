@@ -1,0 +1,82 @@
+@import url(zeroStyle.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;900&display=swap');
+
+
+*{
+    --text-color:rgb(241, 246, 249);
+    --backround-color:rgb(33, 42, 62);
+    --blocks-background-color:rgb(57, 72, 103);
+    --shadow-color:rgb(155, 164, 181);
+}
+
+body {
+    background-color: var(--backround-color);
+    padding: 0 100px;
+    font-family: 'Raleway', sans-serif;
+
+    /* scrollbar for Firefox */
+    scrollbar-color: #458245 #714826;
+    scrollbar-width:  thin;
+
+    /* scrollbar for other browers */
+}
+
+/* scrollbar for other browers */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 4px;
+    background-color: var(--backround-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--shadow-color);
+    border-radius: 9px;
+    box-shadow: inset 1px 1px 10px #f3faf7;
+}
+
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    color: var(--text-color);
+    padding: 60px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.block {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    background-color: var(--blocks-background-color);
+    border-radius: 40px;
+    border: 4px solid var(--shadow-color);
+    box-shadow: 10px 10px 2px var(--text-color);
+    transition: 0.5s;
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: var(--shadow-color);
+    flex-direction: column;
+}
+.block:hover {
+    transform: translate(5px,5px);
+    box-shadow: 5px 5px 2px var(--text-color);
+    transition: 1s;
+    color: var(--text-color);
+}
+
+p {
+    font-size: 15px;
+    padding: 10px;
+}
