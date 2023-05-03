@@ -1,6 +1,6 @@
 import TAX from "./algorithms/tax.js";
 
-let arr = [TAX,TAX,TAX,TAX,TAX,TAX,TAX,TAX,];
+let arr = [TAX];
 
 let wrapper = document.querySelector('.wrapper');
 
