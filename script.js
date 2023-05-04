@@ -1,6 +1,7 @@
 import TAX from "./algorithms/tax.js";
+import Fibonacci from "./algorithms/fibonacci.js";
 
-let arr = [TAX];
+let arr = [TAX,Fibonacci];
 
 let wrapper = document.querySelector('.wrapper');
 
