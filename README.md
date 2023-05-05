@@ -1,4 +1,4 @@
-# Algorithms
+# Number Algorithms
 ## In this repository I gonna place algorythms i did
 ### [Watch page](https://yupyuser.github.io/Algorithms-page/)
 
