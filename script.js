@@ -1,7 +1,8 @@
 import TAX from "./algorithms/tax.js";
 import Fibonacci from "./algorithms/fibonacci.js";
+import Factorial from "./algorithms/factorial.js";
 
-let arr = [TAX,Fibonacci];
+let arr = [TAX,Fibonacci,Factorial];
 
 let wrapper = document.querySelector('.wrapper');
 
