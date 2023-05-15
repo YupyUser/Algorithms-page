@@ -2,8 +2,9 @@ import TAX from "./algorithms/tax.js";
 import Fibonacci from "./algorithms/fibonacci.js";
 import Factorial from "./algorithms/factorial.js";
 import Calculator from "./algorithms/calculator.js";
+import Pi15 from "./algorithms/Pi-15.js";
 
-let arr = [TAX,Fibonacci,Factorial,Calculator];
+let arr = [TAX,Fibonacci,Factorial,Calculator,Pi15];
 
 let wrapper = document.querySelector('.wrapper');
 
